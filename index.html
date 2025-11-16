@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguruan Olahraga Beladiri Trisula - Membangun Karakter, Menjaga Tradisi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-yin-yang"></i>
+                    <span>TRISULA</span>
+                </div>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Beranda</a></li>
+                    <li><a href="#profil" class="nav-link">Profil</a></li>
+                    <li><a href="#galeri" class="nav-link">Galeri</a></li>
+                    <li><a href="#berita" class="nav-link">Berita</a></li>
+                    <li><a href="#jadwal" class="nav-link">Jadwal</a></li>
+                    <li><a href="#anggota" class="nav-link">Anggota</a></li>
+                    <li><a href="#kontak" class="nav-link">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Slideshow -->
+    <section class="hero" id="home">
+        <div class="slideshow">
+            <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1555597673-b21d5c935865?w=1600')"></div>
+            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=1600')"></div>
+            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1600')"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Perguruan Olahraga Beladiri Trisula</h1>
+            <p class="hero-tagline">Membangun Karakter, Menjaga Tradisi, Melatih Jiwa Raga</p>
+            <div class="hero-buttons">
+                <a href="#profil" class="btn btn-primary">Kenali Kami</a>
+                <a href="#kontak" class="btn btn-secondary">Gabung Sekarang</a>
+            </div>
+        </div>
+        <div class="slide-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2 class="section-title">Tentang Trisula</h2>
+                    <p class="about-text">
+                        Perguruan Silat Trisula adalah institusi seni bela diri tradisional yang menggabungkan kearifan lokal dengan teknik bertarung yang telah teruji. Kami berkomitmen untuk membentuk generasi yang berkarakter kuat, disiplin tinggi, dan memiliki jiwa patriotisme.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Tradisi Terjaga</h4>
+                                <p>Melestarikan seni bela diri warisan leluhur</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Komunitas Solid</h4>
+                                <p>Membangun persaudaraan yang erat</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-trophy"></i>
+                            <div>
+                                <h4>Prestasi Gemilang</h4>
+                                <p>Berprestasi di tingkat lokal hingga nasional</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1555597408-26bc8e548a46?w=600" alt="Latihan Silat">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profil Section -->
+    <section class="profil" id="profil">
+        <div class="container">
+            <h2 class="section-title">Profil Perguruan</h2>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="sejarah">Sejarah</button>
+                <button class="tab-btn" data-tab="lambang">Lambang & Sabuk</button>
+                <button class="tab-btn" data-tab="sabta">Sabta Bakti</button>
+                <button class="tab-btn" data-tab="struktur">Struktur Organisasi</button>
+                <button class="tab-btn" data-tab="visi">Visi & Misi</button>
+            </div>
+            
+            <div class="tab-content active" id="sejarah">
+                <div class="content-card">
+                    <h3>Sejarah Perguruan Trisula</h3>
+                    <p>
+                        Perguruan Silat Trisula didirikan pada tahun 1985 oleh Guru Besar R. Soedarmanto. Berawal dari sebuah sanggar kecil di Jakarta, kini Trisula telah berkembang menjadi salah satu perguruan silat terkemuka dengan cabang di berbagai kota di Indonesia.
+                    </p>
+                    <p>
+                        Nama "Trisula" diambil dari senjata tradisional bercabang tiga yang melambangkan tiga pilar utama: Fisik, Mental, dan Spiritual. Perguruan ini menggabungkan berbagai aliran silat Nusantara dengan fokus pada pengembangan karakter dan nilai-nilai luhur bangsa.
+                    </p>
+                    <p>
+                        Selama lebih dari 35 tahun, Trisula telah menghasilkan ribuan pesilat yang tidak hanya terampil dalam bela diri, tetapi juga menjadi pribadi yang berintegritas dan berkontribusi positif bagi masyarakat.
+                    </p>
+                </div>
+            </div>
+
+            <div class="tab-content" id="lambang">
+                <div class="content-card">
+                    <h3>Arti Lambang Trisula</h3>
+                    <div class="lambang-grid">
+                        <div class="lambang-item">
+                            <i class="fas fa-hand-fist"></i>
+                            <h4>Tiga Cabang Trisula</h4>
+                            <p>Melambangkan kesempurnaan Fisik, Mental, dan Spiritual</p>
+                        </div>
+                        <div class="lambang-item">
+                            <i class="fas fa-circle"></i>
+                            <h4>Lingkaran Luar</h4>
+                            <p>Persatuan dan kesatuan seluruh anggota perguruan</p>
+                        </div>
+                        <div class="lambang-item">
+                            <i class="fas fa-star"></i>
+                            <h4>Warna Merah Putih</h4>
+                            <p>Semangat nasionalisme dan cinta tanah air</p>
+                        </div>
+                    </div>
+                    <h3 class="mt-4">Tingkatan Sabuk</h3>
+                    <div class="sabuk-list">
+                        <div class="sabuk-item">
+                            <span class="sabuk putih"></span>
+                            <div>
+                                <strong>Sabuk Putih</strong>
+                                <p>Tingkat pemula - kesucian dan kesiapan belajar</p>
+                            </div>
+                        </div>
+                        <div class="sabuk-item">
+                            <span class="sabuk kuning"></span>
+                            <div>
+                                <strong>Sabuk Kuning</strong>
+                                <p>Tingkat dasar - cahaya pengetahuan mulai bersinar</p>
+                            </div>
+                        </div>
+                        <div class="sabuk-item">
+                            <span class="sabuk hijau"></span>
+                            <div>
+                                <strong>Sabuk Hijau</strong>
+                                <p>Tingkat menengah - pertumbuhan dan perkembangan</p>
+                            </div>
+                        </div>
+                        <div class="sabuk-item">
+                            <span class="sabuk biru"></span>
+                            <div>
+                                <strong>Sabuk Biru</strong>
+                                <p>Tingkat lanjut - kedalaman ilmu seperti lautan</p>
+                            </div>
+                        </div>
+                        <div class="sabuk-item">
+                            <span class="sabuk coklat"></span>
+                            <div>
+                                <strong>Sabuk Coklat</strong>
+                                <p>Tingkat mahir - kematangan dan stabilitas</p>
+                            </div>
+                        </div>
+                        <div class="sabuk-item">
+                            <span class="sabuk hitam"></span>
+                            <div>
+                                <strong>Sabuk Hitam</strong>
+                                <p>Tingkat master - kesempurnaan dan keahlian</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="sabta">
+                <div class="content-card">
+                    <h3>Sabta Bakti Trisula</h3>
+                    <div class="sabta-list">
+                        <div class="sabta-item">
+                            <span class="sabta-number">1</span>
+                            <p>Berbakti kepada Tuhan Yang Maha Esa</p>
+                        </div>
+                        <div class="sabta-item">
+                            <span class="sabta-number">2</span>
+                            <p>Taat kepada orang tua dan guru</p>
+                        </div>
+                        <div class="sabta-item">
+                            <span class="sabta-number">3</span>
+                            <p>Cinta tanah air dan bangsa Indonesia</p>
+                        </div>
+                        <div class="sabta-item">
+                            <span class="sabta-number">4</span>
+                            <p>Menjunjung tinggi persaudaraan dan persatuan</p>
+                        </div>
+                        <div class="sabta-item">
+                            <span class="sabta-number">5</span>
+                            <p>Berlatih dengan sungguh-sungguh dan disiplin</p>
+                        </div>
+                        <div class="sabta-item">
+                            <span class="sabta-number">6</span>
+                            <p>Menjaga nama baik perguruan</p>
+                        </div>
+                        <div class="sabta-item">
+                            <span class="sabta-number">7</span>
+                            <p>Menggunakan ilmu untuk kebaikan bukan kejahatan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="struktur">
+                <div class="content-card">
+                    <h3>Struktur Organisasi</h3>
+                    <div class="struktur-org">
+                        <div class="org-level">
+                            <div class="org-card guru-besar">
+                                <i class="fas fa-crown"></i>
+                                <h4>Guru Besar</h4>
+                                <p>R. Soedarmanto</p>
+                                <span class="badge">Sabuk Hitam 10 Dan</span>
+                            </div>
+                        </div>
+                        <div class="org-level">
+                            <div class="org-card">
+                                <i class="fas fa-user-tie"></i>
+                                <h4>Ketua Umum</h4>
+                                <p>Bambang Sutrisno</p>
+                                <span class="badge">Sabuk Hitam 8 Dan</span>
+                            </div>
+                        </div>
+                        <div class="org-level multi">
+                            <div class="org-card">
+                                <i class="fas fa-user"></i>
+                                <h4>Sekretaris</h4>
+                                <p>Dewi Anggraini</p>
+                            </div>
+                            <div class="org-card">
+                                <i class="fas fa-user"></i>
+                                <h4>Bendahara</h4>
+                                <p>Ahmad Fauzi</p>
+                            </div>
+                            <div class="org-card">
+                                <i class="fas fa-user"></i>
+                                <h4>Ketua Bidang Latihan</h4>
+                                <p>Eko Prasetyo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="visi">
+                <div class="content-card">
+                    <h3>Visi</h3>
+                    <p class="visi-text">
+                        Menjadi perguruan silat terdepan yang mencetak pesilat berkarakter mulia, berprestasi, dan menjaga kelestarian budaya bangsa.
+                    </p>
+                    <h3 class="mt-4">Misi</h3>
+                    <ul class="misi-list">
+                        <li>Menyelenggarakan pelatihan silat yang berkualitas dan berstandar tinggi</li>
+                        <li>Membentuk karakter anggota yang berakhlak mulia, disiplin, dan bertanggung jawab</li>
+                        <li>Mengembangkan potensi fisik, mental, dan spiritual anggota secara seimbang</li>
+                        <li>Melestarikan dan mengembangkan seni bela diri tradisional Nusantara</li>
+                        <li>Membina prestasi anggota di tingkat lokal, nasional, dan internasional</li>
+                        <li>Membangun jaringan kerjasama dengan berbagai pihak untuk kemajuan perguruan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Section -->
+    <section class="galeri" id="galeri">
+        <div class="container">
+            <h2 class="section-title">Galeri Kegiatan</h2>
+            <div class="galeri-filter">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="latihan">Latihan</button>
+                <button class="filter-btn" data-filter="kejuaraan">Kejuaraan</button>
+                <button class="filter-btn" data-filter="ujian">Ujian</button>
+                <button class="filter-btn" data-filter="sosial">Kegiatan Sosial</button>
+            </div>
+            <div class="galeri-grid">
+                <div class="galeri-item" data-category="latihan">
+                    <img src="https://images.unsplash.com/photo-1555597408-26bc8e548a46?w=400" alt="Latihan Rutin">
+                    <div class="galeri-overlay">
+                        <h4>Latihan Rutin</h4>
+                        <p>Pelatihan teknik dasar</p>
+                    </div>
+                </div>
+                <div class="galeri-item" data-category="kejuaraan">
+                    <img src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=400" alt="Kejuaraan">
+                    <div class="galeri-overlay">
+                        <h4>Kejuaraan Nasional</h4>
+                        <p>Juara 1 Kategori Tanding</p>
+                    </div>
+                </div>
+                <div class="galeri-item" data-category="ujian">
+                    <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400" alt="Ujian">
+                    <div class="galeri-overlay">
+                        <h4>Ujian Kenaikan Tingkat</h4>
+                        <p>Periode Januari 2024</p>
+                    </div>
+                </div>
+                <div class="galeri-item" data-category="latihan">
+                    <img src="https://images.unsplash.com/photo-1555597673-b21d5c935865?w=400" alt="Latihan Bersama">
+                    <div class="galeri-overlay">
+                        <h4>Latihan Bersama</h4>
+                        <p>Gabungan seluruh cabang</p>
+                    </div>
+                </div>
+                <div class="galeri-item" data-category="sosial">
+                    <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=400" alt="Sosial">
+                    <div class="galeri-overlay">
+                        <h4>Bakti Sosial</h4>
+                        <p>Bantuan untuk masyarakat</p>
+                    </div>
+                </div>
+                <div class="galeri-item" data-category="kejuaraan">
+                    <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400" alt="Kejuaraan">
+                    <div class="galeri-overlay">
+                        <h4>Porprov 2024</h4>
+                        <p>Medali Emas Tim</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prestasi Section -->
+    <section class="prestasi">
+        <div class="container">
+            <h2 class="section-title">Prestasi & Penghargaan</h2>
+            <div class="prestasi-grid">
+                <div class="prestasi-card">
+                    <i class="fas fa-medal"></i>
+                    <h3>15+</h3>
+                    <p>Medali Emas Nasional</p>
+                </div>
+                <div class="prestasi-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>50+</h3>
+                    <p>Juara Berbagai Kejuaraan</p>
+                </div>
+                <div class="prestasi-card">
+                    <i class="fas fa-award"></i>
+                    <h3>5</h3>
+                    <p>Penghargaan Presiden</p>
+                </div>
+                <div class="prestasi-card">
+                    <i class="fas fa-users"></i>
+                    <h3>2000+</h3>
+                    <p>Anggota Aktif</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Berita Section -->
+    <section class="berita" id="berita">
+        <div class="container">
+            <h2 class="section-title">Berita & Pengumuman</h2>
+            <div class="berita-grid">
+                <div class="berita-card">
+                    <div class="berita-image">
+                        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400" alt="Berita">
+                        <span class="berita-badge">Terbaru</span>
+                    </div>
+                    <div class="berita-content">
+                        <span class="berita-date"><i class="far fa-calendar"></i> 10 November 2025</span>
+                        <h3>Pembukaan Cabang Baru di Surabaya</h3>
+                        <p>Perguruan Trisula dengan bangga mengumumkan pembukaan cabang baru di Surabaya. Pendaftaran dibuka mulai 1 Desember 2025.</p>
+                        <a href="#" class="berita-link">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="berita-card">
+                    <div class="berita-image">
+                        <img src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=400" alt="Berita">
+                    </div>
+                    <div class="berita-content">
+                        <span class="berita-date"><i class="far fa-calendar"></i> 5 November 2025</span>
+                        <h3>Kejuaraan Nasional 2025</h3>
+                        <p>Tim Trisula meraih 8 medali emas pada Kejuaraan Silat Nasional 2025 di Jakarta. Prestasi gemilang yang membanggakan!</p>
+                        <a href="#" class="berita-link">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="berita-card">
+                    <div class="berita-image">
+                        <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400" alt="Berita">
+                    </div>
+                    <div class="berita-content">
+                        <span class="berita-date"><i class="far fa-calendar"></i> 1 November 2025</span>
+                        <h3>Ujian Kenaikan Tingkat Desember 2025</h3>
+                        <p>Ujian kenaikan tingkat akan dilaksanakan pada 15 Desember 2025. Segera daftarkan diri Anda melalui pelatih masing-masing.</p>
+                        <a href="#" class="berita-link">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jadwal Section -->
+    <section class="jadwal" id="jadwal">
+        <div class="container">
+            <h2 class="section-title">Jadwal Latihan</h2>
+            <div class="jadwal-grid">
+                <div class="jadwal-card">
+                    <div class="jadwal-header">
+                        <h3>Cabang Jakarta Pusat</h3>
+                        <span class="badge-location">Gelanggang Olahraga Sumantri</span>
+                    </div>
+                    <div class="jadwal-body">
+                        <div class="jadwal-item">
+                            <i class="far fa-calendar"></i>
+                            <div>
+                                <strong>Senin & Rabu</strong>
+                                <p>19.00 - 21.00 WIB</p>
+                            </div>
+                        </div>
+                        <div class="jadwal-item">
+                            <i class="far fa-calendar"></i>
+                            <div>
+                                <strong>Sabtu</strong>
+                                <p>16.00 - 18.00 WIB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jadwal-card">
+                    <div class="jadwal-header">
+                        <h3>Cabang Tangerang</h3>
+                        <span class="badge-location">GOR Benteng Heritage</span>
+                    </div>
+                    <div class="jadwal-body">
+                        <div class="jadwal-item">
+                            <i class="far fa-calendar"></i>
+                            <div>
+                                <strong>Selasa & Kamis</strong>
+                                <p>19.30 - 21.30 WIB</p>
+                            </div>
+                        </div>
+                        <div class="jadwal-item">
+                            <i class="far fa-calendar"></i>
+                            <div>
+                                <strong>Minggu</strong>
+                                <p>08.00 - 10.00 WIB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jadwal-card">
+                    <div class="jadwal-header">
+                        <h3>Cabang Bekasi</h3>
+                        <span class="badge-location">Lapangan Patriot</span>
+                    </div>
+                    <div class="jadwal-body">
+                        <div class="jadwal-item">
+                            <i class="far fa-calendar"></i>
+                            <div>
+                                <strong>Senin & Kamis</strong>
+                                <p>18.30 - 20.30 WIB</p>
+                            </div>
+                        </div>
+                        <div class="jadwal-item">
+                            <i class="far fa-calendar"></i>
+                            <div>
+                                <strong>Sabtu</strong>
+                                <p>15.00 - 17.00 WIB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Anggota Section -->
+    <section class="anggota" id="anggota">
+        <div class="container">
+            <h2 class="section-title">Pendataan Anggota</h2>
+            <div class="anggota-controls">
+                <input type="text" id="searchAnggota" placeholder="Cari nama anggota..." class="search-input">
+                <button class="btn btn-primary" id="btnTambahAnggota">
+                    <i class="fas fa-plus"></i> Tambah Anggota
+                </button>
+            </div>
+            <div class="anggota-grid" id="anggotaGrid">
+                <!-- Data akan dimuat dari JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Anggota -->
+    <div class="modal" id="modalAnggota">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h3 id="modalTitle">Tambah Anggota Baru</h3>
+            <form id="formAnggota">
+                <div class="form-group">
+                    <label>Nama Lengkap</label>
+                    <input type="text" id="namaAnggota" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Tempat Lahir</label>
+                        <input type="text" id="tempatLahir" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Tanggal Lahir</label>
+                        <input type="date" id="tanggalLahir" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Alamat</label>
+                    <textarea id="alamat" rows="3" required></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Tingkat Sabuk</label>
+                        <select id="sabuk" required>
+                            <option value="Putih">Putih</option>
+                            <option value="Kuning">Kuning</option>
+                            <option value="Hijau">Hijau</option>
+                            <option value="Biru">Biru</option>
+                            <option value="Coklat">Coklat</option>
+                            <option value="Hitam">Hitam</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Cabang</label>
+                        <select id="cabang" required>
+                            <option value="Jakarta Pusat">Jakarta Pusat</option>
+                            <option value="Tangerang">Tangerang</option>
+                            <option value="Bekasi">Bekasi</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Prestasi (opsional)</label>
+                    <textarea id="prestasi" rows="3" placeholder="Tuliskan prestasi yang pernah diraih..."></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" id="btnBatal">Batal</button>
+                    <button type="submit" class="btn btn-primary">Simpan</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Merchandise Section -->
+    <section class="merchandise" id="merchandise">
+        <div class="container">
+            <h2 class="section-title">Merchandise Perguruan</h2>
+            <div class="merch-grid">
+                <div class="merch-card">
+                    <div class="merch-image">
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400" alt="Kaos Trisula">
+                    </div>
+                    <div class="merch-content">
+                        <h4>Kaos Trisula Official</h4>
+                        <p>Kaos olahraga berkualitas tinggi dengan logo Trisula</p>
+                        <div class="merch-price">Rp 150.000</div>
+                        <button class="btn btn-primary">
+                            <i class="fab fa-whatsapp"></i> Pesan Sekarang
+                        </button>
+                    </div>
+                </div>
+                <div class="merch-card">
+                    <div class="merch-image">
+                        <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400" alt="Sabuk">
+                    </div>
+                    <div class="merch-content">
+                        <h4>Sabuk Silat</h4>
+                        <p>Sabuk berkualitas premium untuk berbagai tingkatan</p>
+                        <div class="merch-price">Rp 75.000</div>
+                        <button class="btn btn-primary">
+                            <i class="fab fa-whatsapp"></i> Pesan Sekarang
+                        </button>
+                    </div>
+                </div>
+                <div class="merch-card">
+                    <div class="merch-image">
+                        <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=400" alt="Seragam">
+                    </div>
+                    <div class="merch-content">
+                        <h4>Seragam Latihan</h4>
+                        <p>Setelan lengkap untuk latihan silat</p>
+                        <div class="merch-price">Rp 300.000</div>
+                        <button class="btn btn-primary">
+                            <i class="fab fa-whatsapp"></i> Pesan Sekarang
+                        </button>
+                    </div>
+                </div>
+                <div class="merch-card">
+                    <div class="merch-image">
+                        <img src="https://images.unsplash.com/photo-1574634534894-89d7576c8259?w=400" alt="Atribut">
+                    </div>
+                    <div class="merch-content">
+                        <h4>Atribut & Aksesoris</h4>
+                        <p>Badge, topi, tas, dan aksesoris lainnya</p>
+                        <div class="merch-price">Rp 50.000</div>
+                        <button class="btn btn-primary">
+                            <i class="fab fa-whatsapp"></i> Pesan Sekarang
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section class="kontak" id="kontak">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <div class="kontak-grid">
+                <div class="kontak-info">
+                    <div class="kontak-item">
+                        <div class="kontak-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="kontak-details">
+                            <h4>Alamat Sekretariat</h4>
+                            <p>Jl. Gatot Subroto No. 123<br>Jakarta Pusat, DKI Jakarta 10270</p>
+                        </div>
+                    </div>
+                    <div class="kontak-item">
+                        <div class="kontak-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="kontak-details">
+                            <h4>Telepon / WhatsApp</h4>
+                            <p><a href="tel:+628123456789">+62 812-3456-7890</a></p>
+                            <p><a href="tel:+622123456789">021-2345-6789</a></p>
+                        </div>
+                    </div>
+                    <div class="kontak-item">
+                        <div class="kontak-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="kontak-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@trisulasilat.com">info@trisulasilat.com</a></p>
+                            <p><a href="mailto:admin@trisulasilat.com">admin@trisulasilat.com</a></p>
+                        </div>
+                    </div>
+                    <div class="kontak-item">
+                        <div class="kontak-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="kontak-details">
+                            <h4>Media Sosial</h4>
+                            <div class="sosmed-links">
+                                <a href="#" class="sosmed-btn" title="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="sosmed-btn" title="Facebook">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#" class="sosmed-btn" title="TikTok">
+                                    <i class="fab fa-tiktok"></i>
+                                </a>
+                                <a href="#" class="sosmed-btn" title="YouTube">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="kontak-form">
+                    <h3>Kritik & Saran</h3>
+                    <div id="successMsg" class="success-message">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Pesan Anda berhasil dikirim!</span>
+                    </div>
+                    <form id="formKritikSaran">
+                        <div class="form-group">
+                            <label>Nama Lengkap</label>
+                            <input type="text" id="namaKontak" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" id="emailKontak" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Subjek</label>
+                            <input type="text" id="subjek" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Pesan</label>
+                            <textarea id="pesan" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i> Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.666407935831!2d106.82493631476889!3d-6.176174295532299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9bcc8!2sJl.%20Gatot%20Subroto%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1234567890123!5m2!1sen!2sid" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Tentang Trisula</h4>
+                    <p>Perguruan Silat Trisula adalah institusi seni bela diri tradisional yang berkomitmen membentuk generasi berkarakter kuat, disiplin tinggi, dan memiliki jiwa patriotisme.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Link Cepat</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#profil">Profil Perguruan</a></li>
+                        <li><a href="#galeri">Galeri</a></li>
+                        <li><a href="#berita">Berita</a></li>
+                        <li><a href="#jadwal">Jadwal Latihan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Jl. Gatot Subroto No. 123, Jakarta</li>
+                        <li><i class="fas fa-phone"></i> +62 812-3456-7890</li>
+                        <li><i class="fas fa-envelope"></i> info@trisulasilat.com</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Ikuti Kami</h4>
+                    <div class="sosmed-links">
+                        <a href="#" class="sosmed-btn"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="sosmed-btn"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="sosmed-btn"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="sosmed-btn"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Perguruan Silat Trisula. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+                
